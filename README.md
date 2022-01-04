@@ -30,7 +30,7 @@ public static void main(String[] args) throws TimeoutException {
         ProdutoService produtoService = createService(config);
 
         if (produtoService.untilLoaded()) {
-            System.out.println(produtoService.containProduct("sarada"));
+            System.out.println(produtoService.containProduct("hokage"));
         }
     }
 ```  
