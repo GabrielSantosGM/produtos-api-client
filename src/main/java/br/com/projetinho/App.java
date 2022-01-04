@@ -13,7 +13,7 @@ public class App {
         ProdutoService produtoService = createService(config);
 
         if (produtoService.untilLoaded()) {
-            System.out.println(produtoService.containProduct("sarada"));
+            System.out.println(produtoService.containProduct("hokage"));
         }
     }
 
